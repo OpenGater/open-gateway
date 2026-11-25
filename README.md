@@ -9,12 +9,10 @@
 
 ## 模型（可呼叫清單）
 
-完整目錄以 `GET /v1/models` 即時為準（目前 270+）。主要家族：
+目前只提供 GPT 與 Claude 的文字模型（chat／responses／messages），最新世代優先。實際開放清單以 `GET /v1/models` 為準。
 
-- **Claude**（opus／sonnet／haiku／fable，含最新世代）
-- **GPT**（gpt-6.2-astra／sol、gpt-5.5 系、image、realtime）
-- **Gemini**（3.x pro／flash、embedding）
-- **DeepSeek／Qwen** 等開放權重
+- **GPT**：gpt-6.2-sol／astra、gpt-6.1、gpt-6、gpt-5.x 等
+- **Claude**：opus／sonnet／haiku 5.5、fable 5.x 等
 
 ## 定價
 
